@@ -5,37 +5,39 @@ html{
 body {
     font-family: 'Roboto', sans-serif;
     /* font-family:'lato' 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-    */
-    background-image: url('img/img_background_jornal.jpg');
-    background-size: cover;
+    background-image: url('img/img_background_jornal.jpg');*/
+    background-image: linear-gradient(to right, #97A99D, #94AA9E);
+   /* background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;*/
 }
 
 body::-webkit-scrollbar {
     display: none;
 }
 
-.text h1, h2{
+.text h1, h2 {
     font-family: 'Roboto' sans-serif;
-    color: #ffffff;
+    color: #000;
 }
 
 .text p{
-  color: #ffffff;
+  color: #000;
   font-size: larger;  
   justify-content: center;
   text-align: justify;
 }
 
 .text span{
-    color: #A0B3D9;
+    color: #361909;
 }
 
+/*
 p:hover{
-    color: #ffffff;
+    color: #ED7347;
     transition: all 1s ease-in-out;
     cursor: pointer;
-}
+}*/
 
 .container {
     max-width: 1200px;
@@ -45,7 +47,7 @@ p:hover{
 
 #navbar {
     width: 100%;
-    background-color: #F7784A;
+    background-color: #BA5B38;
     position: fixed;
     top: 0;
     left: 0;
@@ -104,17 +106,16 @@ p:hover{
     min-height: 100vh; 
     display: flex;
     align-items: center;
-    color: #ffffff;
+    color: #000;
     transition: all .3s ease-in-out;
     text-align: center;
-    position: fixed;
 }
 
 #welcome-section img{
     width: 180px;
     border-radius: 50%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 0;
     
 }
 
@@ -137,7 +138,7 @@ figure img{
 }
 
 .redes-sociais a i.fa-brands{
-    color: #ffffff;
+    color: #361909;
     padding: 10px;
     margin-top: 5px;
     font-size: 60px;
