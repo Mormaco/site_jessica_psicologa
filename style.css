@@ -4,11 +4,11 @@ html{
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* font-family:'lato' 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    background-image: url('img/pexels-monstera-6373360.jpg');
+    /* font-family:'lato' 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    */
+    background-image: url('img/img_background_jornal.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
 }
 
 .text p{
-  color: #A0B3D9;
+  color: #ffffff;
   font-size: larger;  
   justify-content: center;
   text-align: justify;
@@ -45,7 +45,7 @@ p:hover{
 
 #navbar {
     width: 100%;
-    background-color: #BF5D39;
+    background-color: #F7784A;
     position: fixed;
     top: 0;
     left: 0;
@@ -66,10 +66,8 @@ p:hover{
 }
 
 .nav-content .logo img{
-    width: 150px;
+    width: 100%;
     border-radius: 50%;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .nav-content ul{
@@ -139,13 +137,36 @@ figure img{
 }
 
 .redes-sociais a i.fa-brands{
-    color: #BF5D39;
+    color: #ffffff;
     padding: 10px;
     margin-top: 5px;
     font-size: 60px;
 }
 
-@media(max-width: 920px) {
+.nav-content ul li a:hover {
+    color: #A0B3D9;
+}
+
+
+@media(min-width: 400px){
+    .nav-content .logo{
+        width: 10%;
+    }
+}
+
+@media(min-width: 600px) {
+    .nav-content ul{
+        font-size: 24px;
+    }
+}
+
+.nav-content ul li a{
+    padding: 24px;
+}
+
+
+
+/*@media(max-width: 920px) {
    .nav-content .logo{
     display: block;
    } 
@@ -155,18 +176,12 @@ figure img{
     .nav-content ul{
         position: fixed;
         top: 80px;
-        left: -100%;
-        height: 100vh;
-        width: 100%;
-        text-align: center;
         display: block;
-        transition: all 0.4s ease;
+        text-decoration: none;
     }
-}
+}*/
 
-.nav-content ul li a:hover {
-    color: #A0B3D9;
-}
+
 
 
 
