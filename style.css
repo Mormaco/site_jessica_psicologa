@@ -112,17 +112,15 @@ p:hover{
 }
 
 #welcome-section img{
-    width: 180px;
+    width: 350px;
     border-radius: 50%;
     text-align: center;
-    margin-top: 0;
-    
 }
 
-
+/*
 #welcome-section:hover {
     transform: scale(1.5);
-}
+}*/
 
 
 figure{
@@ -134,7 +132,6 @@ figure{
 figure img{
     width: 100%;
     height: 300px;
-    text-align: left;
 }
 
 .redes-sociais a i.fa-brands{
