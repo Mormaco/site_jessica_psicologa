@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mormaco.github.io/site_jessica_psicologa/</loc>
+    <loc>https://jessicabsantospsi.com.br/</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mormaco.github.io/site_jessica_psicologa/sobre.html</loc>
+    <loc>https://jessicabsantospsi.com.br/sobre.html</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mormaco.github.io/site_jessica_psicologa/contato.html</loc>
+    <loc>https://jessicabsantospsi.com.br/contato.html</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
 

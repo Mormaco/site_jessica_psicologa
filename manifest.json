@@ -1,0 +1,21 @@
+{
+  "name": "Psicóloga Jéssica Bezerra dos Santos",
+  "short_name": "Psicóloga Jéssica",
+  "description": "Psicóloga clínica de orientação psicanalítica",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4a90e2",
+  "icons": [
+    {
+      "src": "img/logo_psi_2.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "img/logo_psi_2.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+} 
